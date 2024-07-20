@@ -2,6 +2,11 @@
     background-color: #F3F5FC;
   }
 
+  .main-container {
+    display: flex;
+    flex-direction: row;
+  }
+
   .conteiner-left {
     display: flex;
   }
@@ -19,15 +24,15 @@
   
   .textarea-div {
     display: flex;
-    margin: 100px 0 0 0;
+    margin: 6.25rem 4rem 0 0;
   }
   
-  .textarea-div, #textarea textarea {
-    width: 680px;
-    height: 320px;
+  .textarea-div textarea {
+    width: 37.5rem;
+    height: 20rem;
     background-color: #F3F5FC;
     border: none;
-    border-radius: 15px;
+    border-radius: .94rem;
     padding: .8rem;
     font-size: 2rem;
     text-align: left;
@@ -54,4 +59,38 @@
 
   .textarea-div textarea:-ms-input-placeholder { 
     color: #0A3871;
+  }
+
+  .container-right {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 1.25rem;
+    margin-top: 2rem;
+    padding: 2rem 0 4rem 0;
+  }
+
+  .return-text-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    height: 90%;
+    width: 30rem;
+    margin-top: 3rem;
+    }
+
+    .return-text-div img {
+        width: 300px;
+    }
+  
+  .texts {
+    color: #343A40;
+    text-align: center;
+    width: 20rem;
+    margin-top: 2rem;
+    padding: .5rem .8rem;
+  } 
+
+  .texts h1 {
+    margin-bottom: .8rem;
   }
