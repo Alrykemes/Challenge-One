@@ -1,0 +1,57 @@
+  body {
+    background-color: #F3F5FC;
+  }
+
+  .conteiner-left {
+    display: flex;
+  }
+  
+  .logo-div {
+    display: flex;
+    margin: 1rem 1rem;
+    width: 120px;
+  } 
+
+  .logo-div img {
+    width: 120px;
+    height: 48px;
+  }
+  
+  .textarea-div {
+    display: flex;
+    margin: 100px 0 0 0;
+  }
+  
+  .textarea-div, #textarea textarea {
+    width: 680px;
+    height: 320px;
+    background-color: #F3F5FC;
+    border: none;
+    border-radius: 15px;
+    padding: .8rem;
+    font-size: 2rem;
+    text-align: left;
+    color: #0A3871;
+    resize: none;
+  }
+
+  .textarea, #textarea textarea:focus {
+   outline: none;
+  }
+
+  /*Cor do placeholder para todos os navegadores*/
+  .textarea-div textarea::placeholder {
+    color: #0A3871;
+  }
+
+  .textarea-div textarea:-moz-placeholder { /* Firefox 18- */
+    color: #0A3871;
+  }
+
+  .textarea-div textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #0A3871 
+ }
+
+  .textarea-div textarea:-ms-input-placeholder { 
+    color: #0A3871;
+  }
