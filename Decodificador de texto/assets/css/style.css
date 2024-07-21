@@ -9,6 +9,7 @@
 
   .conteiner-left {
     display: flex;
+    flex-direction: column;
   }
   
   .logo-div {
@@ -24,7 +25,7 @@
   
   .textarea-div {
     display: flex;
-    margin: 6.25rem 4rem 0 0;
+    margin: 3rem 4rem 0 10rem;
   }
   
   .textarea-div textarea {
@@ -40,7 +41,7 @@
     resize: none;
   }
 
-  .textarea, #textarea textarea:focus {
+  .textarea-div textarea:focus {
    outline: none;
   }
 
@@ -67,6 +68,7 @@
     border-radius: 1.25rem;
     margin-top: 2rem;
     padding: 2rem 0 4rem 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
   .return-text-div {
@@ -79,9 +81,9 @@
     margin-top: 3rem;
     }
 
-    .return-text-div img {
-        width: 300px;
-    }
+  .return-text-div img {
+      width: 300px;
+  }
   
   .texts {
     color: #343A40;
@@ -93,4 +95,44 @@
 
   .texts h1 {
     margin-bottom: .8rem;
+  }
+
+  .alert-text {
+    display: flex;
+    flex-direction: row;
+    color: #495057;
+    margin-bottom: .6rem;
+  }
+
+  .alert-text img {
+    width: 20px;
+    margin-right: .4rem;
+  }
+
+  .buttons-div {
+    padding: 1rem;
+    margin: 2rem 0 0 10rem;
+  }
+
+  .buttons-div button {
+    padding: 1.5rem 5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .buttons-div #b-encrypt {
+    margin-right: 2rem;
+    padding: 1.5rem 5.5rem;
+    background-color: #0A3871;
+    color: #FFF;
+    
+  }
+
+  .buttons-div #b-decrypt {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    
   }
