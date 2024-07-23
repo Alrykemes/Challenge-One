@@ -122,7 +122,7 @@
     height: 90%;
     width: 30rem;
     margin-top: 3rem;
-    
+    display: none;
     }
 
   .not-found-div img {
@@ -141,19 +141,19 @@
     margin-bottom: .8rem;
   }
 
-  .return-text-div textarea {
+  .return-text-div #textarea-return {
     width: 26rem;
-    height: 25rem;
+    height: 23rem;
     margin-left: 1.2rem;
     background-color: #F3F5FC;
     border: none;
     border-radius: .94rem;
-    padding: 0;
+    padding: .8rem;
     font-size: 2rem;
     text-align: left;
-    font-weight: 600;
+    font-weight: 400;
     resize: none;
-    display: none;
+   
   }
 
   .return-text-div textarea:focus {
@@ -169,5 +169,5 @@
     font-size: 1rem;
     font-weight: 600;
     margin: 4rem 0 0 6rem;
-    display: none;
+    
    }
